@@ -15,7 +15,7 @@ function onStartButtonClick() {
 };
 
 function onStopButtonClick() {
-    startBtn.setAttribute('disabled', 'false');
+    startBtn.removeAttribute('disabled');
     clearInterval(timerId);
 }
 
