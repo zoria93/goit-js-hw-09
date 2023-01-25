@@ -8,7 +8,7 @@ const timerDays = document.querySelector("[data-days]");
 const timerHours = document.querySelector("[data-hours]");
 const timerminutes = document.querySelector("[data-minutes]");
 const timerseconds = document.querySelector("[data-seconds]");
-let temeId = null;
+let timerId = null;
 
 startBtn.setAttribute('disabled', 'true');
 
